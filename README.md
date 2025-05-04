@@ -34,7 +34,7 @@ A Google Chrome extension that allows users to:
 3. Wait a few seconds
 4. A popup will show the analysis result
 
-![Extension usage demo](phishing/screenshot.png)
+![Extension usage demo](screenshot.png)
 
 ## How it works
 
