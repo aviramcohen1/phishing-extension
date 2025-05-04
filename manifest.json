@@ -1,0 +1,19 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Phishing Detector by GPT",
+  "version": "1.0",
+  "description": "Detects phishing messages using GPT.",
+  "permissions": ["contextMenus", "scripting", "storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

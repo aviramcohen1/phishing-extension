@@ -1,0 +1,1 @@
+const apiKeyInput=document.getElementById("apiKeyInput");const saveBtn=document.getElementById("saveBtn");const status=document.getElementById("status");saveBtn.addEventListener("click",()= key=apiKeyInput.value.trim();if(key.startsWith("sk-")){chrome.storage.sync.set({apiKey:key},()=="™˜ „–Œ‡„!";});}else{status.textContent="”š‡ Œ€ š—‰.";}}); 

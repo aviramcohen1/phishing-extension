@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>בדיקת פישינג</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+      text-align: right;
+      width: 380px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #2c3e50;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    h2::before {
+      content: "🔍";
+      margin-left: 8px;
+    }
+
+    .result-box {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 10px;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      font-size: 14px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .divider {
+      border-bottom: 1px solid #e0e0e0;
+      margin: 12px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+    }
+
+    .button {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #0078d4;
+      color: white;
+      text-align: center;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <h2>תוצאת בדיקה</h2>
+  <div id="result" class="result-box">
+    טוען תוצאה...
+  </div>
+
+  <a class="button" href="#" onclick="window.close()">בדוק הודעה נוספת</a>
+
+  <div class="footer">
+    פותח על ידי GPT • גרסה 1.0
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
